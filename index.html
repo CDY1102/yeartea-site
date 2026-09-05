@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YearTea — 연차만 보는 캘린더</title>
+<meta name="description" content="대한민국 공휴일과 내 휴가만 보여주는 캘린더 앱. 로그인도 서버도 없습니다.">
+<style>
+  :root { --ink:#1c1c1a; --muted:#6b6b66; --canvas:#fbfbf9; --seed:#3f6b5b; --hairline:#e8e8e4; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#ecede8; --muted:#9ba096; --canvas:#161715; --seed:#6fb295; --hairline:#32352f; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--canvas); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR","Segoe UI",Roboto,sans-serif; line-height:1.7; -webkit-font-smoothing:antialiased; }
+  main { max-width:640px; margin:0 auto; padding:96px 20px 80px; text-align:center; }
+  h1 { font-size:40px; letter-spacing:-1px; margin:0 0 8px; color:var(--seed); }
+  .tag { font-size:20px; color:var(--muted); margin:0 0 32px; }
+  p { margin:0 0 12px; }
+  .facts { display:inline-block; text-align:left; color:var(--muted); font-size:15px; margin:8px 0 40px; padding:0; list-style:none; }
+  .facts li::before { content:"·"; margin-right:8px; color:var(--seed); }
+  a { color:var(--seed); }
+  footer { margin-top:64px; padding-top:24px; border-top:1px solid var(--hairline); font-size:13px; color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>YearTea</h1>
+  <p class="tag">연차만 보는 캘린더</p>
+  <p>대한민국 공휴일과 내 휴가만 보여주는 달력입니다.</p>
+  <ul class="facts">
+    <li>로그인도, 서버도, 계정도 없습니다</li>
+    <li>모든 데이터는 내 기기 안에만 저장됩니다</li>
+    <li>광고·분석·추적 없음</li>
+  </ul>
+  <p><a href="/privacy/">개인정보처리방침</a></p>
+  <footer>© 2026 YearTea · <a href="mailto:imation32@gmail.com">imation32@gmail.com</a></footer>
+</main>
+</body>
+</html>
